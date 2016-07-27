@@ -7,6 +7,7 @@ body {
     width: 50%;
     margin: 0 auto;
     padding-top: 100px;
+    position: relative;
 }
 .title p {
     color: #90c43b;
@@ -18,6 +19,21 @@ body {
     border: 1px solid #0065b3;
     border-radius: 10px;
     overflow: hidden;
+}
+.container::after {
+    content: '';
+    position: absolute;
+
+    width: 80%;
+    height: 10px;
+    bottom: 0;
+    left: 10%;
+
+    z-index: -1;
+
+    -webkit-box-shadow: 0 9px 20px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 9px 20px rgba(0,0,0,.4);
+    box-shadow: 0 9px 20px rgba(0,0,0,.4);
 }
 .sidebar,
 .aside {
@@ -89,6 +105,8 @@ body {
     color: #fff;
     font-size: 32px;
     float: right;
+    font-family: 'Open Sans';
+    font-weight: 600;
 }
 input[type="range"] {
     min-width: 500px;
