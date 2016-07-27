@@ -128,6 +128,9 @@ input[type='range']::-webkit-slider-thumb {
     border-radius: 10px;
     cursor: pointer;
 }
+input[type="range" i]::-webkit-slider-runnable-track {
+     cursor: pointer;
+}
 .day,
 .year {
     overflow: hidden;
