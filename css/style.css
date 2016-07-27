@@ -1,5 +1,7 @@
 body {
-    background: url("../images/background.jpg");
+    background: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .wrapper {
     width: 50%;
@@ -8,7 +10,7 @@ body {
 }
 .title p {
     color: #90c43b;
-    font: 32px Arial, sans-serif;
+    font: 32px 'Open Sans', sans-serif;
     line-height: 40px;
 }
 .container {
