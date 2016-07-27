@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
     <div class="wrapper">
@@ -17,11 +18,11 @@
                     <p>Управляющий</p>
                 </div>
                 <ul class="list">
-                    <li><a id="11970" onclick="addClass(this)" href="#"><span>11970</span>Galax</a></li>
-                    <li><a id="7348" onclick="addClass(this)" href="#"><span>7348</span>Veronica</a></li>
-                    <li><a id="10555" onclick="addClass(this)" href="#"><span>10555</span>Dragonfly</a></li>
-                    <li><a id="10504" onclick="addClass(this)" href="#"><span>10504</span>Condor</a></li>
-                    <li><a id="10469" onclick="addClass(this)" href="#"><span>10469</span>Shark_007</a></li>
+                    <li><a id="11970" href="#"><span>11970</span>Galax</a></li>
+                    <li><a id="7348" href="#"><span>7348</span>Veronica</a></li>
+                    <li><a id="10555" href="#"><span>10555</span>Dragonfly</a></li>
+                    <li><a id="10504" href="#"><span>10504</span>Condor</a></li>
+                    <li><a id="10469" href="#"><span>10469</span>Shark_007</a></li>
                 </ul>
             </div>
             <div class="aside">
@@ -47,18 +48,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function addClass(elem) {
-            var a = document.getElementsByTagName('a');
-            for (i = 0; i < a.length; i++) {
-                a[i].classList.remove('active');
-            }
-            elem.classList.add('active');
-
-            return document.getElementById(elem);
-        };
-        var name = addClass();
-
-    </script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
