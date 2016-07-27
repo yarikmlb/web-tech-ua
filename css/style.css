@@ -1,13 +1,15 @@
-body {
+.wrapper {
     background: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
-.wrapper {
+    background-position-y: -170px;
     width: 50%;
     margin: 0 auto;
-    padding-top: 400px;
+    padding: 50px 0;
     position: relative;
+}
+.title {
+    margin-left: 90px;
 }
 .title p {
     color: #90c43b;
@@ -19,6 +21,8 @@ body {
     border: 1px solid #0065b3;
     border-radius: 10px;
     overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
 }
 .container:after {
     content: '';
@@ -38,7 +42,7 @@ body {
 .sidebar,
 .aside {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .sidebar {
     float: left;
@@ -109,7 +113,7 @@ body {
     font-weight: 600;
 }
 input[type="range"] {
-    min-width: 500px;
+    min-width: 350px;
     -webkit-appearance: none;
     width: 100%;
     border-radius: 8px;
