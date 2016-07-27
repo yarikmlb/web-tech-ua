@@ -6,7 +6,7 @@ body {
 .wrapper {
     width: 50%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 400px;
     position: relative;
 }
 .title p {
@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
 }
-.container::after {
+.container:after {
     content: '';
     position: absolute;
 
