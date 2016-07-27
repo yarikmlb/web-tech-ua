@@ -60,6 +60,7 @@ body {
 .list {
     list-style: none;
     padding: 0;
+    margin-bottom: 30px;
 }
 .list li {
     margin: 10px 0;
