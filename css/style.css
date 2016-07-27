@@ -1,15 +1,14 @@
-.wrapper {
+body {
     background: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -170px;
+    background-position-y: -200px;
+}
+.wrapper {
     width: 50%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding-top: 100px;
     position: relative;
-}
-.title {
-    margin-left: 90px;
 }
 .title p {
     color: #90c43b;
@@ -21,8 +20,6 @@
     border: 1px solid #0065b3;
     border-radius: 10px;
     overflow: hidden;
-    width: 80%;
-    margin: 0 auto;
 }
 .container:after {
     content: '';
@@ -42,7 +39,7 @@
 .sidebar,
 .aside {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .sidebar {
     float: left;
@@ -113,7 +110,7 @@
     font-weight: 600;
 }
 input[type="range"] {
-    min-width: 350px;
+    min-width: 500px;
     -webkit-appearance: none;
     width: 100%;
     border-radius: 8px;
