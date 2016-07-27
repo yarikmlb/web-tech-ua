@@ -4,6 +4,4 @@ function addClass(elem) {
         a[i].classList.remove('active');
     }
     elem.classList.add('active');
-    return document.getElementById(elem);
 };
-var name = addClass();
